@@ -1,7 +1,9 @@
 *{
+    background-color: black;
 }
 
 :root{
+    --preto:black;
 }
 
 header{
