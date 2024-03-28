@@ -17,3 +17,75 @@
     
 }
 
+/* @media screen and (max-width : 820px) { }*/
+
+.groupbanner{
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/capas/b9d9a6cb0cf523f131b6b153a675ab5956dd63f7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    
+}
+
+#narcosbanner{
+
+}
+
+.textbanner{
+    width: 40%;
+    height: 100%;
+    background: rgb(1,0,10);
+    background: linear-gradient(90deg, rgba(1,0,10,1) 30%, rgba(0,212,255,0) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.textbanner h3{
+    font-size: 12pt;
+}
+
+.textbanner h1{
+    font-size: 45pt;
+}
+
+.buttonbanner{
+    display: flex;
+    gap: 20px;
+}
+
+.buttonbanner button{
+    background-color: rgb(145, 145, 145);
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border: none;
+    border-radius: 2px;
+    color: var(--white);
+}
+
+.buttonbanner button:hover{
+    background-color: rgba(145, 145, 145, 0.466);
+}
+
+/* mobile menu */
+
+#menumobileshow{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(128, 128, 128, 0.685);
+    position: absolute;
+    display: none;
+    justify-content: center;
+}
+
+#menumobileshow ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+}
+
